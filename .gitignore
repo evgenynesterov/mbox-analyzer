@@ -1,0 +1,6 @@
+*.mbox
+*.csv
+!sample.mbox
+!contacts-sample.csv
+node_modules/
+.vscode/
