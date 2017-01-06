@@ -126,7 +126,7 @@ function dumpS(s) {
   console.log('Author:', s.author);
   console.log(util.format('Messages: %s, daily ratio: %d%%', s.count, Math.trunc(s.ratio * 100)));
   console.log('Messages amount distribution:', s.sparklines.count);
-  console.log('Messages size distribution:', s.sparklines.size);
+  console.log('Messages size distribution:  ', s.sparklines.size);
   console.log('');
 }
 
